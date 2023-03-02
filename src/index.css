@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +12,36 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.containerFood {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+
+
+#foodName {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.254);
+  padding: 10px;
+}
+
+.form {
+  margin: 0 auto;
+  width: 400px;
+  text-align: left;
+}
+
+#btn-create {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.searchingBar {
+  margin: 0 auto;
+  width: 400px;
+  text-align: left;
 }
