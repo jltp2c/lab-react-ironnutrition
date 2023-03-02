@@ -8,7 +8,10 @@ function Search({searchFood}) {
    const handleSearchName = (e) =>{
         console.log("input Name : ",e.target.value);
         setName(e.target.value)
-        searchFood(e.target.value)
+        if (e.target.value !== ""){
+          searchFood(e.target.value)
+        }
+        
     }
 
 
